@@ -57,7 +57,7 @@ class PasswordManager:
                 continue
             # check if only two numbers
             if len(nList) != 2:
-                print("# invalid input, please enter only TWO numbers")
+                print("# invalid input, please enter TWO numbers")
                 continue
             nList = [int(i) for i in nList]
             n1, n2 = min(nList), max(nList)
