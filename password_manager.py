@@ -41,7 +41,7 @@ class PasswordManager:
         while True:
             res = None
             nList = input(
-                "Length between? (enter two numbers not smaller than 6,\n"
+                "Length between? (Enter two numbers not smaller than 6,\n"
                 "and separate them with one space)\n"
             ).strip()
             nList = [i for i in nList.split(" ") if i != ""]
